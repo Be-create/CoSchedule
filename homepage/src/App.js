@@ -1,6 +1,6 @@
 import { Routes,Route } from "react-router-dom";
-import { Month } from "./components/day";
 import Sidebar from "./components/Navbar/sidebar";
+import { Taskpanel } from "./components/task/taskpanel";
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App" style={{backgroundColor : "#f7f7f7"}}>
     
     <Routes >
-      <Route path = "/" element={<div style={{display : "flex"}}> <Sidebar /> </div>} />
+      <Route path = "/" element={<div style={{display : "flex"}}> <Sidebar /> <Taskpanel /> </div>} />
     </Routes>
     </div>
   );
