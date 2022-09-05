@@ -16,7 +16,7 @@ const Home = () => {
         Get more done in less time with the only work management software
         for&nbsp;marketers.
       </p>
-      <Link className={styles.button} as={ReachLink} to="/">
+      <Link className={styles.button} as={ReachLink} to="/Calender">
         Get Started Free
       </Link>
 
@@ -62,7 +62,7 @@ const Home = () => {
             <span>
               <img
                 className={styles.imgstyle}
-                src="https://coschedule.com/_next/image?url=%2Fimg%2Ftestimonials%2Fconvertkit-logo.webp&w=384&q=75"
+                src="https://coschedule.com/_next/image?url=%2Fimg%2Ftestimonials%2Fvericast-logo2.webp&w=256&q=75"
                 alt="logo1"
               />
             </span>
