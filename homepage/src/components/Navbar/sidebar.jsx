@@ -21,7 +21,7 @@ import { IoPawOutline } from 'react-icons/io5'
 import NavItem from './navitem'
 
 export default function Sidebar() {
-    const [navSize, changeNavSize] = useState("large")
+    const [navSize, changeNavSize] = useState("small")
     return (
         <Flex
             pos="sticky"
