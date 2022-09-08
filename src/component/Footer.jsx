@@ -140,7 +140,7 @@ function Footer() {
           </Stack>
 
           <Stack className={styles.heading} align={'flex-start'}>
-            <ListHeader >COMPANY</ListHeader>
+            <ListHeader >company </ListHeader>
             <Link href={'#'}>About</Link>
             <Link href={'#'}>Jobs</Link>
             <Link href={'#'}>Press</Link>
