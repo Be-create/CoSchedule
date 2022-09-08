@@ -1,5 +1,5 @@
 {
-  "sign": [
+  "signup": [
     {
       "id": 1,
       "name": "Ash",
@@ -11,6 +11,18 @@
       "email": "ayy",
       "password": "aaaa",
       "id": 2
+    },
+    {
+      "name": "ash",
+      "email": "ashcigs@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "ash",
+      "email": "ashcigs@gmail.com",
+      "password": "12345",
+      "id": 4
     }
   ]
 }

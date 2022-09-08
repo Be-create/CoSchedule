@@ -21,7 +21,7 @@ const Signup = () => {
     e.preventDefault();
     const { name, email, password } = user;
 
-    const res = await fetch("http://localhost:8080/sign", {
+    const res = await fetch("http://localhost:8080/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -35,13 +35,13 @@ const Signup = () => {
 
     const data = await res.json();
     if (res.status === 422 || !data) {
-     window.alert("Invalid Registration");
+      window.alert("Invalid Registration");
       console.log("Invalid Registration");
     } else {
       window.alert("Registration Success");
       console.log("Registration Success");
 
-      // navigate.push("/Signin");
+      navigate("/Signin");
     }
   };
   return (

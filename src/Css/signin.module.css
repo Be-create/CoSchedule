@@ -1,0 +1,223 @@
+.signinPage {
+    display: block;
+    top: 0px;
+    background-color: #dcdcdc;
+    height: 700px;
+    position: relative;
+    z-index: 0;
+    margin-bottom: -60px;
+  }
+  .upperDiv {
+    width: 50%;
+    margin: auto;
+    font-family: "MuseoSans-300", sans-serif;
+    color: #474747;
+  }
+  .cosLogo {
+    width: 65%;
+    margin: auto;
+  }
+  .cosDemoTitle {
+    width: 100%;
+  }
+  .cosTitle {
+    font-size: 2.5em;
+    font-weight: 600;
+  }
+  .formDiv {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 35%;
+    padding: 3rem 4rem;
+  
+    border-radius: 8px;
+    box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 10%);
+    background-color: #f7f7f7;
+  
+    padding-top: 50px;
+    align-self: center;
+    margin: 10% 33%;
+  }
+  
+  .formComponent_input {
+    border-radius: 2px;
+    border: 1px solid #d8d8d8;
+    padding: 12px 40px 12px 18px;
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+    font-family: inherit;
+    width: 100%;
+    height: 40px;
+  }
+  .formComponent_label {
+    color: #828282;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 130%;
+    align-self: left;
+    margin-left: -15px;
+  }
+  .formComponent {
+    text-align: left;
+    font-family: inherit;
+    margin-top: 20px;
+  }
+  .nextSubmitBtn {
+    border: none;
+    width: 38%;
+    background-color: #f9bfae;
+    padding: 0.9rem 1rem;
+    margin: auto;
+    color: white;
+    margin: 1rem 16rem;
+    border-radius: 5px;
+  }
+  .SigninBtn {
+    background-color: #d5846f;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .terms {
+    font-size: 12px;
+    line-height: 150%;
+    color: #a4a4a4;
+    padding: 15px 0;
+    clear: both;
+  }
+  .terms_span {
+    font-family: sans-serif;
+  }
+  .underlined {
+    font-family: sans-serif;
+    text-decoration: underline;
+  }
+  
+  .loginboxesbg1 {
+    bottom: -50px;
+    left: -20px;
+    position: fixed;
+    width: 250px;
+    opacity: 0.4;
+  }
+  .loginboxesbg2 {
+    position: fixed;
+    width: 250px;
+    opacity: 0.4;
+    top: 50px;
+    right: -20px;
+  }
+  
+  @media all and (min-width: 320px) and (max-width: 480px) {
+    .signinPage {
+      width: 100%;
+      margin-bottom: -60px;
+    }
+    .upperDiv {
+      width: 90%;
+  
+      font-family: "MuseoSans-300", sans-serif;
+      color: #474747;
+    }
+    .cosLogo {
+      width: 50%;
+      margin: auto;
+    }
+    .formDiv {
+      width: 90%;
+      margin: 10% 5%;
+      padding: 3rem 4rem;
+      margin-top: 3rem;
+      border-radius: 8px;
+      box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 10%);
+    }
+    .nextSubmitBtn {
+      border: none;
+      width: 38%;
+      background-color: #f9bfae;
+      padding: 0.2rem 1rem;
+      margin: auto;
+      color: white;
+      margin: 1rem;
+      border-radius: 3px;
+      height: 3rem;
+      font-size: 10px;
+    }
+  }
+  @media all and (min-width: 481px) and (max-width: 768px) {
+    .signinPage {
+      width: 100%;
+    }
+    .upperDiv {
+      width: 90%;
+      margin: auto;
+      font-family: "MuseoSans-300", sans-serif;
+      color: #474747;
+    }
+    .cosLogo {
+      width: 50%;
+      margin: auto;
+    }
+    .formDiv {
+      width: 80%;
+      margin: 10% 10%;
+      padding: 3rem 4rem;
+      margin-top: 3rem;
+      border-radius: 8px;
+      box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 10%);
+    }
+    .nextSubmitBtn {
+      border: none;
+      width: 38%;
+      background-color: #f9bfae;
+      padding: 0.2rem 1rem;
+      margin: auto;
+      color: white;
+      margin: 1rem;
+      border-radius: 3px;
+      height: 3rem;
+      font-size: 10px;
+    }
+  }
+  @media all and (min-width: 769px) and (max-width: 1201px) {
+    .signinPage {
+      width: 100%;
+    }
+    .upperDiv {
+      width: 90%;
+      margin: auto;
+      font-family: "MuseoSans-300", sans-serif;
+      color: #474747;
+    }
+    .cosLogo {
+      width: 30%;
+      margin: auto;
+    }
+    .formDiv {
+      width: 65%;
+      margin: 10% 20%;
+      padding: 3rem 4rem;
+      margin-top: 3rem;
+      border-radius: 8px;
+      box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 10%);
+    }
+    .nextSubmitBtn {
+      border: none;
+      width: 38%;
+      background-color: #f9bfae;
+      padding: 0.2rem 1rem;
+      margin: auto;
+      color: white;
+      margin: 1rem;
+      border-radius: 3px;
+      height: 3rem;
+    }
+  }
+  
