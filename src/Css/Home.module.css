@@ -337,6 +337,7 @@ body {
   height: 289.78px;
   color: #4b4b4b;
   font-family: " MuseoSans";
+  margin-left: 25%;
 }
 
 .cosaccolade:hover {
@@ -653,6 +654,8 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: auto;
+    align-items: center;
+    margin-left: 20%;
   }
   .inside {
     width: 360px;
@@ -774,6 +777,7 @@ body {
     height: 1000px;
     margin: auto;
     font-family: " MuseoSans300";
+    
   }
   .grid2 {
     display: grid;
