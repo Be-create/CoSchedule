@@ -17,7 +17,7 @@ import {
     FiBriefcase,
     FiSettings
 } from 'react-icons/fi'
-import { IoPawOutline } from 'react-icons/io5'
+
 import NavItem from './navitem'
 
 export default function Sidebar() {
@@ -25,7 +25,7 @@ export default function Sidebar() {
     return (
         <Flex
             pos="sticky"
-            left="5"
+            left="0"
             h="95vh"
             marginTop="2.5vh"
             boxShadow="0 4px 12px 0 rgba(0, 0, 0, 0.05)"
@@ -35,7 +35,7 @@ export default function Sidebar() {
             justifyContent="space-between"
         >
             <Flex
-                p="5%"
+               
                 flexDir="column"
                 w="100%"
                 alignItems={navSize == "small" ? "center" : "flex-start"}

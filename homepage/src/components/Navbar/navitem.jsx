@@ -23,6 +23,7 @@ export default function NavItem({ icon, title, description, active, navSize }) {
                     backgroundColor={active && "#d17760"}
                     p={3}
                     borderRadius={8}
+                    bg= "#d17760"
                     _hover={{ textDecor: 'none', backgroundColor: "#d17760" }}
                     w={navSize === "large" && "100%"}
                 >
