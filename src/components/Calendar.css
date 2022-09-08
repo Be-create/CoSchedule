@@ -89,15 +89,16 @@ border: dotted 1px;
     margin-top: 50px;
     margin-left: 10px;
     width: 80%;
-    height: 110px;
+    height: 90px;
     background: rgb(192, 255, 221);
     border-radius: 10px;
 }
 .mapBox>b{
     width: 100%;
     height: 100px;
-margin-left: 5px;
+margin-left: 10px;
 color: black;
+padding: 5px;
 }
 .mapBox>i{
  padding: 5px;
@@ -112,6 +113,12 @@ color: black;
       width: 20px;
       height: 20px;
            }
+
+         
+
+          
+        
+
 
 .mapParent{
     display: grid;
@@ -205,3 +212,101 @@ padding: 20px;
     color: rgb(3, 3, 3);
     border-radius: 5px;
  }
+
+
+ @media (max-width: 620px) {
+    .mapParent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4, 1fr);
+        
+    }
+
+    .divForm{
+        display: flex;
+        
+            width: 200px;
+            height: 110px;
+            background-color: aqua;
+            justify-content: center;
+            margin-top: 100px;
+  margin-left: 100px;
+            border-radius: 10px;
+            align-items: center;
+         }
+
+
+         
+ .divForm > form {
+
+    padding: 10px;
+    
+    
+    
+    
+     }
+     #text{
+        text-align: center;
+        width: 120px;
+        height: 40px;
+        border-radius: 5px;
+     }
+     #submit{
+        margin-left: 20px;
+        width: 90px;
+       background-color: rgb(7, 4, 1);
+        margin-top: 10px;
+        color: white;
+        border-radius: 5px;
+     }
+    
+     #submit:hover{
+        margin-left: 20px;
+        width: 90px;
+       background-color: rgb(255, 255, 255);
+        margin-top: 10px;
+        color: rgb(3, 3, 3);
+        border-radius: 5px;
+     }
+
+    .mapDayName{
+        width: 150px;
+        
+    
+    
+    }
+
+    .dayName>p{
+        width: 200px;
+        margin-left: 15px;
+        color: black;
+        display: none;
+     }
+   }
+
+   
+ @media (min-width: 620px) {
+    .mapParent{
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(4, 1fr);
+      
+    }
+
+    .mapDayName{
+        width: 200px;
+        
+    
+    
+    }
+
+    .dayName>p{
+        width: 200px;
+        margin-left: 15px;
+        color: black;
+        
+     }
+   }
+
+
+   
