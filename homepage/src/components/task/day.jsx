@@ -56,23 +56,12 @@ position : relative ;
 `
 
 export const Month = () => {
-const handleinputbar = (e)=>{
-  setinputbar(!inputbar)
-  console.log(inputbar)
-  if(inputbar){
-   
-    e.target.innerHTML = `
-     <div /> 
-  `
-  console.log(e.target)
-  }
-  
-}
+
   const date = new Date();
   //console.log(date)
   const [inputbar, setinputbar] = useState(false)
   const shortWeekDaysArray = Array.from(Array(7)).map((e, i) => addDays(date, i))
-
+  
   return (
     <div style={{overflowY : "scroll",height : "700px"}}>
       <Toptaskdiv>
@@ -88,7 +77,7 @@ const handleinputbar = (e)=>{
         <Topbutton>
           <MdAdd style={{ width: "fit-content", fill: "white" }} /> <h2>Add Task</h2>
         </Topbutton>
-        <hr style={{ backgroundColor: "gray" }} />
+        <hr style={{ backgroundColor: "white" }} />
       </Toptaskdiv>
 
 
@@ -99,22 +88,16 @@ const handleinputbar = (e)=>{
         (isToday(day) ?
           <div key={day} >
             <Card  ><H1>Today</H1> <Hr />
-              <Add >{<MdAdd style={{ width: "fit-content" }} />}</Add></Card>
+              <Add >{<MdAdd style={{ width: "fit-content", fill: "grey" }} />}</Add></Card>
             
-            <Box  onClick={(e)=> handleinputbar(e)}
-          style={{backgroundColor : "red" ,height:"20px" ,width: "20px"}}
-          
-          
-          >
-
-            </Box>
+            
 
           </div>
 
           : isTomorrow(day) ?
             <div key={day}><Card ><H1>Tomorrow</H1>
               <Hr />
-              <Add >{<MdAdd style={{ width: "fit-content", fill: "white" }} />}
+              <Add >{<MdAdd style={{ width: "fit-content", fill: "grey" }} />}
               </Add>
             </Card>
             
@@ -124,11 +107,11 @@ const handleinputbar = (e)=>{
             : <div key={day}>
               <Card ><H1>{format(day, 'EEEE')}</H1>
                 <Hr />
-                <Add >{<MdAdd style={{ width: "fit-content", fill: "white" }} />}
+                <Add >{<MdAdd style={{ width: "fit-content", fill: "grey"}} />}
                 </Add>
                 
               </Card>
-              
+             
             </div>))
       }
 

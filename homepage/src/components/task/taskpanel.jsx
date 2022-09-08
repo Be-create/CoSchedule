@@ -17,7 +17,7 @@ export const Taskpanel = ()=> {
     .addEventListener('change', e => setMatches( e.matches ));
   }, []);
     return (
-        <Flex p="20px" w={matches ? "70%" : "100%"}  alignItems="center" justifyContent="center" >
+        <Flex p="20px" w={matches ? "65%" : "100%"}  alignItems="center" justifyContent="center" >
         <Box
           
           borderWidth="1px"

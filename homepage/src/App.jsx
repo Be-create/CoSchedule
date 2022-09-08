@@ -9,7 +9,7 @@ function App() {
     <div className="App">
     
     <Routes >
-      <Route path = "/" element={<div style={{display : "flex"}}><Homepage /> </div>} />
+      <Route path = "/" element={<div style={{display : "flex",backgroundColor : "#fff"}}><Homepage /> </div>} />
     </Routes>
     </div>
   );
