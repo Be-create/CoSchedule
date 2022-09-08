@@ -1,0 +1,16 @@
+{
+  "sign": [
+    {
+      "id": 1,
+      "name": "Ash",
+      "email": "ash@gmail.com",
+      "password": "12345"
+    },
+    {
+      "name": "Ash",
+      "email": "ayy",
+      "password": "aaaa",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+
+.upperDiv{
+    width: 50%;
+    margin: auto;
+    font-family: "MuseoSans-300",sans-serif;
+    color: #474747;
+}
+.cosLogo{
+    width: 25%;
+    margin: auto;
+}
+.cosDemoTitle{
+    width: 100%;
+}
+.cosTitle{
+    font-size:2.5em;
+    font-weight: 600;
+}
+.formDiv{
+    border: 1px solid #d8d8d8;
+    /* border: 2px solid red; */
+    width: 40%;
+    margin: auto;
+    padding:3rem 4rem;
+    margin-top:3rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 20px 0 rgba(77, 76, 76, 0.1);
+}
+
+
+.formComponent_input{
+    border-radius: 2px;
+    border: 1px solid #d8d8d8;
+    padding: 12px 40px 12px 18px;
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    transition: all .2s ease-in-out;
+    font-family: inherit; 
+    width: 100%;
+    height: 40px;
+    
+}
+.formComponent_label {
+    color: #828282;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 210%;
+    align-self:left;
+    margin-left: 0px;
+}
+.formComponent{
+    font-family: inherit;
+    margin-top: 20px; 
+    text-align:left;
+}
+.nextSubmitBtn{
+    border: none;
+    width: 100%;
+    background-color: #f9bfae ;
+    padding: 0.2rem 1rem;
+    margin: auto;
+    color: white;
+    margin: 1rem 0rem;
+    border-radius: 3px;
+    height: 3rem;
+}
+.SigninBtn{
+    background-color: #d5846f;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    width:100%;
+}
+.terms{
+    font-size: 12px;
+    line-height: 150%;
+    color: #a4a4a4;
+    padding: 15px 0;
+    clear: both;   
+}
+.terms_span{
+    font-family: sans-serif;
+}
+.underlined{
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+@media all and  (min-width: 320px) and (max-width: 480px) {
+    .upperDiv{
+       
+        width: 90%;
+        margin: auto;
+        font-family: "MuseoSans-300",sans-serif;
+        color: #474747;
+    }
+    .cosLogo{
+        width: 50%;
+        margin: auto;
+    }
+    .formDiv{
+      
+        width: 90%;
+        margin: auto;
+        padding:3rem 4rem;
+        margin-top:3rem;
+        border-radius: 8px;
+        box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 10%);
+    }
+    .nextSubmitBtn{
+        border: none;
+        width: 100%;
+        background-color: #f9bfae ;
+        padding: 0.2rem 1rem;
+        margin: auto;
+        color: white;
+        margin: 1rem ;
+        border-radius: 3px;
+        height: 3rem;
+        font-size: 10px;
+    }
+} 
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+    .upperDiv{
+       
+        width: 90%;
+        margin: auto;
+        font-family: "MuseoSans-300",sans-serif;
+        color: #474747;
+    }
+    .cosLogo{
+        width: 50%;
+        margin: auto;
+    }
+    .formDiv{
+      
+        width: 80%;
+        margin: auto;
+        padding:3rem 4rem;
+        margin-top:3rem;
+        border-radius: 8px;
+        box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 10%);
+    }
+    .nextSubmitBtn{
+        border: none;
+        width: 100%;
+        background-color: #f9bfae ;
+        padding: 0.2rem 1rem;
+        margin: auto;
+        color: white;
+        margin: 1rem ;
+        border-radius: 3px;
+        height: 3rem;
+    }
+} 
+@media all and (min-width: 769px) and (max-width: 1201px) {
+    .upperDiv{
+       
+        width: 90%;
+        margin: auto;
+        font-family: "MuseoSans-300",sans-serif;
+        color: #474747;
+    }
+    .cosLogo{
+        width: 40%;
+        margin: auto;
+    }
+    .formDiv{
+      
+        width: 80%;
+        margin: auto;
+        padding:3rem 4rem;
+        margin-top:3rem;
+        border-radius: 8px;
+        box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 10%);
+    }
+    .nextSubmitBtn{
+        border: none;
+        width: 100%;
+        background-color: #f9bfae ;
+        padding: 0.2rem 1rem;
+        margin: auto;
+        color: white;
+        margin: 1rem ;
+        border-radius: 3px;
+        height: 3rem;
+    }
+} 
