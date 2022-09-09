@@ -1,0 +1,345 @@
+
+.parent{
+    padding: 30px;
+   color:rgb(129, 127, 127);
+   margin-top: 50px;
+margin-left: -10px;
+width: 80%;
+
+}
+
+.container{
+    display: flex;
+  
+    align-items: center;
+    justify-content: end;
+}
+
+.box{
+ border: solid rgb(231, 229, 229) 1px;
+ width: 200px;
+ height: 240px;
+ display: flex;
+ gap: 80px;
+ padding: 10px;
+ 
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(176, 49, 14);
+    color: white;
+    border: none;
+   
+   border-radius: 5px;
+   margin-bottom: 10px;
+   
+}
+.btn1{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: solid;
+   
+   border-radius: 5px;
+   margin-bottom: 10px;
+   
+}
+
+.btnDiv{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+
+  
+
+ 
+  
+}
+
+.iconBtn{
+    background-color: #ffff;
+    border: none;
+
+    font-size: large;
+
+    
+   margin-top: 5px;
+  
+}
+.iconBtn:hover{
+    font-size: x-large;
+
+}
+
+
+.mapContainer{
+   float: left;
+border: dotted 1px;
+  
+  
+    
+
+}
+
+
+.mapBox{
+  
+  display: flex;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 80%;
+    height: 90px;
+    background: #f17c5d;
+    border-radius: 10px;
+}
+.mapBox>b{
+    width: 100%;
+    height: 100px;
+margin-left: 10px;
+color: #ffff;
+padding: 5px;
+}
+.mapBox>i{
+ padding: 5px;
+    margin-left: 30px;
+   color: white;
+  
+    }
+
+    .mapBox>i :hover{
+      
+          color: rgb(201, 241, 255);
+      width: 20px;
+      height: 20px;
+           }
+
+         
+
+          
+        
+
+
+.mapParent{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(4, 1fr);
+   
+    
+}
+.mapDayName{
+    width: 200px;
+    height: 250px;
+
+
+}
+
+
+.mapDayName > b{
+    margin-left: 15px;
+    
+   
+}
+.mapDayName > b>h3{
+margin-left: 170px;
+   text-align: end;
+   margin-top: -35px;
+   color:black;
+}
+.mapDayName > b>h3 :hover{
+  
+  
+   
+    color: rgb(25, 218, 218);
+   width: 20px;
+   height: 20px;
+ }
+.mapDayName > b>p{
+    text-align: left;
+    color: rgb(233, 6, 6);
+    margin-left: 10px;
+    margin-top: -10px;
+ }
+
+ .dayName{
+
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin-left: -55px;
+    
+ }
+ .dayName>p{
+    width: 200px;
+    margin-left: 15px;
+    color: black;
+ }
+
+ .divForm{
+display: flex;
+
+    width: 300px;
+    height: 110px;
+    background-color: #f17c5d;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 45%;
+    border-radius: 10px;
+    align-items: center;
+ }
+
+ .divForm > form {
+
+padding: 20px;
+
+
+
+
+ }
+ #text{
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px;
+ }
+ #submit{
+    margin-left: 0px;
+    width: 90px;
+    height: 35px;
+   background-color: rgb(7, 4, 1);
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+    border: solid 1px;
+ }
+
+ #submit:hover{
+   
+    
+   background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    color: rgb(3, 3, 3);
+    border-radius: 5px;
+ }
+
+
+ @media (max-width: 620px) {
+    .mapParent{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4, 1fr);
+    width: 120%;
+    }
+.sideBar{
+    display: none;
+}
+    .mapBox{
+  
+        display: flex;
+          margin-top: 50px;
+          margin-left: 10px;
+          width: 100%;
+          height: 100px;
+          background-color: #f17c5d;
+          border-radius: 10px;
+      }
+    .mapDayName > b>h3{
+        margin-left: 270px;
+           text-align: end;
+           margin-top: -35px;
+           color:black;
+        }
+    .divForm{
+        display: flex;
+        
+            width: 200px;
+            height: 110px;
+            background-color: #f17c5d;
+            justify-content: center;
+            margin-top: 100px;
+  margin-left: 100px;
+            border-radius: 10px;
+            align-items: center;
+         }
+
+
+         
+ .divForm > form {
+
+    padding: 10px;
+    
+    
+    
+    
+     }
+     #text{
+        text-align: center;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        border: solid 1px;
+     }
+     #submit{
+        margin-left: 0px;
+        width: 100px;
+        height: 35px;
+       background-color: rgb(7, 4, 1);
+        margin-top: 10px;
+        color: white;
+        border-radius: 5px;
+     }
+    
+     #submit:hover{
+      
+       background-color: rgb(255, 255, 255);
+        margin-top: 10px;
+        color: rgb(3, 3, 3);
+        border-radius: 5px;
+     }
+
+    .mapDayName{
+        width: 200px;
+        
+    
+    
+    }
+
+    .dayName>p{
+        width: 200px;
+        margin-left: 15px;
+        color: black;
+        display: none;
+     }
+   }
+
+   
+ @media (min-width: 620px) {
+    .mapParent{
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(4, 1fr);
+      
+    }
+
+    .mapDayName{
+        width: 200px;
+        
+    
+    
+    }
+
+    .dayName>p{
+        width: 200px;
+        margin-left: 15px;
+        color: black;
+        
+     }
+   }
+
+
+   
+.baap{
+    display: flex;
+
+}
