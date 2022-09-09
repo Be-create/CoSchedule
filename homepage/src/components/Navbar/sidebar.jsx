@@ -12,9 +12,7 @@ import {
     FiMenu,
     FiHome,
     FiCalendar,
-    FiUser,
-    FiDollarSign,
-    FiBriefcase,
+    
     FiSettings
 } from 'react-icons/fi'
 
@@ -57,7 +55,7 @@ export default function Sidebar() {
                    <Link to="/" />
 
                 </NavItem>
-                <NavItem navSize={navSize} icon={FiCalendar} title="Calendar"  />
+                <NavItem navSize={navSize} color="white" icon={FiCalendar}  title="Calendar"  ></NavItem>
                 
                 
             </Flex>

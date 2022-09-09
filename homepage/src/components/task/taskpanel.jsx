@@ -5,7 +5,20 @@ import {
     Box,
   } from '@chakra-ui/react';
 import { Month } from './day';
-  
+import { Gettingstarted } from "./gettingstarted";
+import styled from "styled-components";
+import {AiOutlineHome} from "react-icons/ai"
+const H1 = styled.h1`
+color : gray;
+font-size : 25px;
+margin : 10px;
+width : fit-content;
+
+`
+const Home = styled(AiOutlineHome)`
+color : gray;
+font-size : 25px;
+`
 export const Taskpanel = ()=> {
   const [matches, setMatches] = useState(
     window.matchMedia("(min-width: 768px)").matches
@@ -17,7 +30,14 @@ export const Taskpanel = ()=> {
     .addEventListener('change', e => setMatches( e.matches ));
   }, []);
     return (
-        <Flex p="20px" w={matches ? "65%" : "100%"}  alignItems="center" justifyContent="center" >
+        <Box  display = "flex"  flexDirection = "column" w={matches ? "65%" : "100%"}>
+        <Flex style={{alignItems : "center"}}>
+          <Home />
+        <H1>  Home</H1>
+        </Flex>
+        <Box  h="700px" overflowY="scroll" p="20px"   alignItems="center" justifyContent="center" >
+        
+        <Gettingstarted />
         <Box
           
           borderWidth="1px"
@@ -27,7 +47,8 @@ export const Taskpanel = ()=> {
           w="full">
             <Month />
         </Box>
-      </Flex>
+      </Box>
+        </Box>
   
     )
          

@@ -59,11 +59,11 @@ export const Month = () => {
 
   const date = new Date();
   //console.log(date)
-  const [inputbar, setinputbar] = useState(false)
+ 
   const shortWeekDaysArray = Array.from(Array(7)).map((e, i) => addDays(date, i))
   
   return (
-    <div style={{overflowY : "scroll",height : "700px"}}>
+    <div style={{height : "700px"}}>
       <Toptaskdiv>
         <Card>
 

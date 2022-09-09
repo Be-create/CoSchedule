@@ -29,7 +29,7 @@ export default function NavItem({ icon, title, description, active, navSize }) {
                 >
                     <MenuButton w="100%">
                         <Flex>
-                            <Icon as={icon} fontSize="xl" color={active ? "#f7f7f7" : "gray.500"} />
+                            <Icon as={icon} fontSize="xl" color={active ? "white" : "gray.500"} />
                             <Text ml={5} display={navSize === "small" ? "none" : "flex"}>{title}</Text>
                         </Flex>
                     </MenuButton>
@@ -41,7 +41,7 @@ export default function NavItem({ icon, title, description, active, navSize }) {
                     h={200}
                     ml={5}
                 >
-                    <NavHoverBox title={title} icon={icon} description={description} />
+                    <NavHoverBox title={title}  description={description} />
                 </MenuList>
             </Menu>
         </Flex>
