@@ -9,7 +9,7 @@ import {
 import styled from "styled-components";
   const Headp= styled.p`
   font-size : 15px;
-  color : gray;
+  color : #4D4D4D;
   
   `
   const Bodyp = styled.p`
@@ -36,10 +36,11 @@ import styled from "styled-components";
   
   `
   const H1 = styled.h1`
-  color : gray;
+  color : #4D4D4D;
   font-size : 25px;
   margin : 10px;
-  
+  font-style : Bold;
+
   `
   const Trophy = styled(FaTrophy)
   `
@@ -83,7 +84,7 @@ export const Gettingstarted = ()=> {
             h="fit-content"
             w={matches ? "300px" : "full"}
             m="10px"
-            border="1px solid gray"
+            border=" 1px solid #e6e6e6"
             borderRadius = "10px"
             padding="20px"
             >
@@ -103,7 +104,7 @@ export const Gettingstarted = ()=> {
             h="fit-content"
             w={matches ? "300px" : "full"}
             m="10px"
-            border="1px solid gray"
+            border="1px solid #e6e6e6"
             borderRadius = "10px"
             padding="20px"
             >
@@ -122,7 +123,7 @@ export const Gettingstarted = ()=> {
             h="fit-content"
             w={matches ? "300px" : "full"}
             m="10px"
-            border="1px solid gray"
+            border="1px solid #e6e6e6"
             borderRadius = "10px"
             padding="20px"
             >
@@ -141,7 +142,7 @@ export const Gettingstarted = ()=> {
             h="fit-content"
             w={matches ? "300px" : "full"}
             m="10px"
-            border="1px solid gray"
+            border="1px solid #e6e6e6"
             borderRadius = "10px"
             padding="20px"
             >
@@ -160,7 +161,7 @@ export const Gettingstarted = ()=> {
             h="fit-content"
             w={matches ? "300px" : "full"}
             m="10px"
-            border="1px solid gray"
+            border="1px solid #e6e6e6"
             borderRadius = "10px"
             padding="20px"
             >
@@ -177,7 +178,7 @@ export const Gettingstarted = ()=> {
             </Box>
             </Box>
            <Box h="fit-content" mt="20" justifyContent="center"display={matches ? "block " : "none"}>
-           <CircularProgress  value={40} color='green.400' size='150px'>
+           <CircularProgress isIndeterminate value={40} color='green.400' size='150px'>
   <CircularProgressLabel color="gray">40%</CircularProgressLabel>
 </CircularProgress>
            </Box>

@@ -9,7 +9,7 @@ import { Gettingstarted } from "./gettingstarted";
 import styled from "styled-components";
 import {AiOutlineHome} from "react-icons/ai"
 const H1 = styled.h1`
-color : gray;
+color :#4D4D4D;
 font-size : 25px;
 margin : 10px;
 width : fit-content;
