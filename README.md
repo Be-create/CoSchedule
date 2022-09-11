@@ -68,3 +68,48 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+Co schedule is an app used by marketing teams.Graphic designer, social media strategist.
+Co schedule is a family of Agile Marketing products that will help you organize your content,social,work and assets in one place.
+CoSchedule is going to help you spend less time on the unproductive parts of your job that you hate.
+By co schedule we can reprioritize to handle the new tasks.
+Group Members:
+Ashutosh Bhardwaj, Binod Nayak, Benazir Sultana& Sahid Jamal
+
+(from PT-WEB-5)
+
+Project Walkthrough
+Landing Page:-
+
+
+responsive landing page
+Login Page:-
+
+As soon as we fill our email address and password in their respective fields , it tallies the data with data stored in the local storage and completes the login process.
+
+Home page
+
+Tech Stack Used
+HTML , CSS , JavaScript,React ,Redux,
+
+Libraries Used :- Font Awesome , AnimateCSS , chakra ui
+
+Tools and Extensions used :- Font Finder, Color Picker
+
+Collaboration:-GitHub
+
+Overview:-
+All in all the task of cloning the co-schedule website was exciting. It as some really cool features which we were excited to implement and learn . And the team played a massive role in helping me achieve my task . We divided our tasks and set daily and periodic goals. We would meet, discuss and find solutions to problems we faced during it.It was a wonderful learning experience. Being a part of a team of motivated individuals brings the best out from us.
+
+The Challenges:-
+The first hurdle was to overcome the communication problem, to gel with the team we had a off topic meeting after the work division just to know each other better personally, it helps in knowing each others strengths and weaknesses better.
+
+Conclusion:-
+During the course of project building, we develop not only as a coder but also as a coordinator,moderator and problem solver. Problem solving includes deep analytical and communication skills , which can be gained through experience and construct week gives us a perfect platform to experience .
+
+Concluding my blog I would like to give a shout out to my teammates and mentors whose tireless effort and camaraderie made us see through the construct week and coming out with more confidence with this experience.
