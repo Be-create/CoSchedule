@@ -71,14 +71,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-
+**###`About The Project`**
 
 
 Co schedule is an app used by marketing teams.Graphic designer, social media strategist.
 Co schedule is a family of Agile Marketing products that will help you organize your content,social,work and assets in one place.
 CoSchedule is going to help you spend less time on the unproductive parts of your job that you hate.
 By co schedule we can reprioritize to handle the new tasks.
-Group Members:
+**###`Group Members:`**
 Ashutosh Bhardwaj, Binod Nayak, Benazir Sultana& Sahid Jamal
 
 (from PT-WEB-5)
