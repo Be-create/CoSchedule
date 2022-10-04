@@ -66,7 +66,7 @@ export const Gettingstarted = ()=> {
            <H1>Getting Started</H1> </Flex>
            <Headp>Successful marketers complete these milestones within their first week.</Headp>
         <Box
-          h={matches ? "350px": "fit-content"}
+          h="fit-content"
           borderWidth="1px"
           rounded="lg"
           shadow="lg"
@@ -111,8 +111,8 @@ export const Gettingstarted = ()=> {
                 <Flex style={{alignItems : "center"}}>
                     <Cross />
                     <div>
-            <Headp class="margin-0 bold margin-bottom-5">Connect an integration</Headp>
-            <Bodyp class="margin-0 small gray-4-color">Sync content from your favorite tools like WordPress, Mailchimp,
+            <Headp >Connect an integration</Headp>
+            <Bodyp >Sync content from your favorite tools like WordPress, Mailchimp,
               Facebook, Twitter,  more.</Bodyp>
           </div>
             <Move />
@@ -178,7 +178,7 @@ export const Gettingstarted = ()=> {
             </Box>
             </Box>
            <Box h="fit-content" mt="20" justifyContent="center"display={matches ? "block " : "none"}>
-           <CircularProgress isIndeterminate value={40} color='green.400' size='150px'>
+           <CircularProgress value={40} color='green.400' size='150px'>
   <CircularProgressLabel color="gray">40%</CircularProgressLabel>
 </CircularProgress>
            </Box>

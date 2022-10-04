@@ -12,6 +12,9 @@ import { MdAdd } from "react-icons/md"
 import styled from "styled-components"
 import { IconButton, Flex, color,Box } from "@chakra-ui/react";
 import { useRef, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { updatetodos } from "../../Redux/action";
 
 const Card = styled.div`
 display : flex;
@@ -55,13 +58,28 @@ const Toptaskdiv = styled.div`
 position : relative ;
 `
 
+
 export const Month = () => {
 
   const date = new Date();
   //console.log(date)
+ const dispatch = useDispatch()
  
-  const shortWeekDaysArray = Array.from(Array(7)).map((e, i) => addDays(date, i))
+  const shortWeekDaysArray = Array.from(Array(7)).map((e, i) => 
+   ({date : addDays(date, i),
+    status : false
+  })
+  )
+  console.log(shortWeekDaysArray)
+ 
   
+
+  useEffect(()=>{
+  dispatch(updatetodos(shortWeekDaysArray))
+  },[])
+  const days = useSelector((state)=> state.todos)
+
+
   return (
     <div style={{height : "700px"}}>
       <Toptaskdiv>
@@ -84,18 +102,21 @@ export const Month = () => {
 
       {
 
-        shortWeekDaysArray.map((day) =>
-        (isToday(day) ?
-          <div key={day} >
+        days.map((e) =>
+        (isToday(e.date) ?
+          <div key={e.date} >
             <Card  ><H1>Today</H1> <Hr />
-              <Add >{<MdAdd style={{ width: "fit-content", fill: "grey" }} />}</Add></Card>
-            
-            
+              <Add 
+              >{<MdAdd style={{ width: "fit-content", fill: "grey" }} />}</Add>
+              
+              </Card>
+           <input style={{display : e.status===true ? "inline" : 'none'}} ></input>
+              
 
           </div>
 
-          : isTomorrow(day) ?
-            <div key={day}><Card ><H1>Tomorrow</H1>
+          : isTomorrow(e.date) ?
+            <div key={e.date}><Card ><H1>Tomorrow</H1>
               <Hr />
               <Add >{<MdAdd style={{ width: "fit-content", fill: "grey" }} />}
               </Add>
@@ -104,8 +125,8 @@ export const Month = () => {
             </div>
 
 
-            : <div key={day}>
-              <Card ><H1>{format(day, 'EEEE')}</H1>
+            : <div key={e.date}>
+              <Card ><H1>{format(e.date, 'EEEE')}</H1>
                 <Hr />
                 <Add >{<MdAdd style={{ width: "fit-content", fill: "grey"}} />}
                 </Add>
